@@ -1,3 +1,7 @@
+##
+Learn Node course made with Wes Bos and Visual Studio Code
+
+
 ## What is this?
 
 Just you wait folks!
