@@ -373,3 +373,4 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 public/dist/
+public/uploads/
