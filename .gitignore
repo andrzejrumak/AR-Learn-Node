@@ -374,3 +374,4 @@ __pycache__/
 *.xsd.cs
 public/dist/
 public/uploads/
+*.env
