@@ -40,7 +40,10 @@ const storeSchema = new mongoose.Schema({
        required: 'You must supply an author'
      }
 });
-
+storeSchema.index({
+  name: 'text',
+  description: 'text'
+});
 storeSchema.pre('save', async function(next) {
   if (!this.isModified('name')) {
     next(); // skip it
