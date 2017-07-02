@@ -373,5 +373,14 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 public/dist/
-public/uploads/
+public/uploads/*
+!*.gitkeep
+node_modules/
+.DS_Store
+*.log
+.idea
+haters/
+
 *.env
+variables.env.now
+*.now
